@@ -1,0 +1,38 @@
+//
+//  AUDIT-prefix.pch
+//  AUDIT
+//
+//  Created by Zhayong on 11/22/15.
+//  Copyright © 2015 Zha Yong. All rights reserved.
+
+#ifndef AUDIT_prefix_pch
+#define AUDIT_prefix_pch
+
+#import "UIView+Positioning.h"
+#import "UIStoryboard+ZY.h"
+#import "UITextField+ZY.h"
+#import <MJExtension.h>
+#import <AFNetworking.h>
+#import "DateHelper.h"
+#import "ZYDataEngine.h"
+#import "DataBaseOperation.h"
+
+// 1.自定义Log
+#ifdef DEBUG
+#define ZYLog(...) NSLog(__VA_ARGS__)
+#else
+#define ZYLog(...)
+#endif
+
+#define ZYcornerRadius 3.0
+
+// 2.系统版本
+#define SYSTEM_VERSION ([[UIDevice currentDevice].systemVersion doubleValue])
+
+// 3.屏幕尺寸
+#define SCREEN_RECT ([UIScreen mainScreen].bounds)
+
+// 4.获得RGB颜色
+#define ZYColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#endif

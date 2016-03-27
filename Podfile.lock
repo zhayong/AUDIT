@@ -1,0 +1,48 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FMDB/common (2.5)
+  - FMDB/SQLCipher (2.5):
+    - FMDB/common
+    - SQLCipher
+  - Lyt (0.6)
+  - MJExtension (2.1.1)
+  - SQLCipher (3.1.0):
+    - SQLCipher/standard (= 3.1.0)
+  - SQLCipher/common (3.1.0)
+  - SQLCipher/standard (3.1.0):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6.0)
+  - FMDB/SQLCipher (~> 2.5)
+  - Lyt (~> 0.6)
+  - MJExtension (~> 2.1.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  Lyt: 782ddb228608b0193a2793edaeb3acbb0afa52b1
+  MJExtension: 4b8a628ec7764a4b3c6c0e7261ec0687cf32ff20
+  SQLCipher: c44fcca49c31483c2489cfb79aa7a69407f3794a
+
+COCOAPODS: 0.39.0

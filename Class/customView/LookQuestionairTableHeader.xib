@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LookQuestionairTableHeader">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上海宝信汽车销售有限公司-4S" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJS-g9-bXW">
+                    <rect key="frame" x="20" y="0.0" width="380" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Zd2-Ka-seY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="销售标准审核" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qtk-tL-UEN">
+                    <rect key="frame" x="20" y="50" width="200" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="HNo-fv-vJb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.31764705882352939" green="0.31764705882352939" blue="0.31764705882352939" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未导出" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0A-go-bts">
+                    <rect key="frame" x="260" y="50" width="100" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WhG-bi-uxq">
+                    <rect key="frame" x="0.0" y="99" width="400" height="1"/>
+                    <color key="backgroundColor" red="0.73725490196078436" green="0.72941176470588232" blue="0.75686274509803919" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="f8f-h6-Oh4"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="AJS-g9-bXW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5mA-cC-vOA"/>
+                <constraint firstItem="A0A-go-bts" firstAttribute="leading" secondItem="Qtk-tL-UEN" secondAttribute="trailing" constant="40" id="8FI-5F-qAu"/>
+                <constraint firstAttribute="trailing" secondItem="A0A-go-bts" secondAttribute="trailing" constant="40" id="9R7-z9-Y1q"/>
+                <constraint firstAttribute="trailing" secondItem="WhG-bi-uxq" secondAttribute="trailing" id="AQ5-vw-9o6"/>
+                <constraint firstItem="A0A-go-bts" firstAttribute="firstBaseline" secondItem="Qtk-tL-UEN" secondAttribute="firstBaseline" id="DYO-WI-oqZ"/>
+                <constraint firstItem="A0A-go-bts" firstAttribute="baseline" secondItem="Qtk-tL-UEN" secondAttribute="baseline" id="Kjg-Yq-OAk"/>
+                <constraint firstItem="Qtk-tL-UEN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="LUW-gt-ADR"/>
+                <constraint firstItem="AJS-g9-bXW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="X2T-b2-9RG"/>
+                <constraint firstAttribute="bottom" secondItem="WhG-bi-uxq" secondAttribute="bottom" id="cEa-up-1cm"/>
+                <constraint firstItem="WhG-bi-uxq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gVV-jU-yBm"/>
+                <constraint firstAttribute="trailing" secondItem="AJS-g9-bXW" secondAttribute="trailing" id="iHB-2D-cUU"/>
+                <constraint firstItem="Qtk-tL-UEN" firstAttribute="top" secondItem="AJS-g9-bXW" secondAttribute="bottom" id="ik7-d6-cFW"/>
+                <constraint firstAttribute="trailing" secondItem="Qtk-tL-UEN" secondAttribute="trailing" constant="180" id="rRq-7o-gdT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="251" y="24"/>
+        </view>
+    </objects>
+</document>
